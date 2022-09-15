@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(29, 69, 120);
+}
+
+.header {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 200;
+}
+
+.header-icon {
+    height: 60px;
+}
+
+.header-title {
+    display: inline-block;
+    font-family: Roboto, Arial;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(29, 69, 120);
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.title-container {
+    padding-top: 15px;
+}
+
+.calculate-button {
+    font-family: Roboto, Arial;
+    font-size: 40;
+    font-weight: 600;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 2px;
+    background-color: rgb(29,69,120);
+    color: white;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 89px;
+    height: 63px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.calculate-button:hover {
+    opacity: 0.8;
+}
+
+.calculate-button:active {
+    opacity: 0.5
+}
+
+#map {
+    padding-top: 10px;
+    height: 500px;
+    width: 500px;
+    margin: 30px auto;
+    z-index: 100;
+}
+
+#input {
+    font-family: Roboto, Arial;
+    font-size: 18px;
+    font-weight: 400;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 2px;
+    background-color: rgb(29,69,120);
+    color: white;
+    margin-top: 100px;
+    margin-left: 700px;
+    height: 55px;
+    width: 400px;
+}
+
+#input::placeholder {
+    font-family: Roboto, Arial;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.alert-info,
+.alert-danger {
+    font-family: Roboto, Arial;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
